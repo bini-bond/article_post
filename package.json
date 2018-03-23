@@ -1,0 +1,31 @@
+{
+  "name": "master-node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/socket.io": "^1.4.31",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.18.2",
+    "class-to-mongoose-schema": "^2.0.1",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "eslint": "^4.14.0",
+    "express": "~4.15.5",
+    "formidable": "^1.1.1",
+    "handlebar": "^1.0.0",
+    "jshint": "^2.9.5",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^",
+    "mongoskin": "^2.1.0",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4"
+  }
+}
